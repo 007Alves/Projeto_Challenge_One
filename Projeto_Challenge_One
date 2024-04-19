@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Folha de estilo de CSS Linkado -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Portifólio Pessoal</title>
+</head>
+<body>
+    <!-- Sessão de Menu -->
+    <div class="all">
+        <section class="menu">
+            <header>
+                <img src="assets\vector.png">
+                <h3 class="menu_title">Milton Geraldo Alves</h3>
+            </header>
+            <nav>
+                <ul class="menu_list">
+                    <li class="menu_list_item">
+                        <a href="#sobremim">Sobre mim</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#formacao">Formações e Cursos</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#xp">Experiência</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#contato">Contato@fulana.com</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Sessão de Header/Title/Hero -->
+        <section class="title">
+            <div class="title_div">
+                <img class="title_profile" src="assets\Eu 3x4.png">
+                <div id="sobremim" class="title_container">
+                    <h2 class="title_bio">Olá, meu nome é Milton Geraldo Alves e construo páginas web</h2>
+                    <h3 class="title_subsection">
+                        Eu sou formado em  Técnico em Eletromecânica, Ciências Contábeis, finalizando Técnico Automação Industrial e Gestão da Tecnologia da Informação, e atualmente estou participando no projeto Oracle ONE na Alura.
+                    </h3>
+                    <ul class="title_network">
+                        <!-- Ponha os links de suas redes sociais favoritas -->
+                        <li class="title_network_item">
+                            <a href="">
+                               Github
+                               <img src="assets\arrow.png">
+                            </a>
+                        </li>
+                        <li class="title_network_item">
+                            <a href="">
+                               Linkedin
+                               <img src="assets\arrow.png">
+                            </a>
+                        </li>
+                        <li class="title_network_item">
+                            <a href=""> 
+                               Instagram
+                               <img src="assets\arrow.png">
+                            </a>
+                        </li>
+                        <li class="title_network_item">
+                            <a href="">
+                               Curriculo
+                               <img src="assets\arrow.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sessão sobre mim -->
+        <section class="about">
+            <div class="about_container">
+                <h3 class="about_title">Sobre mim</h3>
+                <p class="about_paragraph">A música sempre foi uma paixão em minha vida. Nas horas vagas, gosto de relaxar tocando um violão e me perdendo nas notas e acordes. No entanto, atualmente estou trabalhando em outra área, mas sinto que é chegada a hora de conciliar minha paixão com uma nova experiência na área da tecnologia da informação.
+                Estou me aproximando do fim do curso de Gestão da Tecnologia da Informação e buscando aprimorar meus conhecimentos em linguagens de programação. Por isso, estou dedicando meu tempo livre para aprender Javascript, Html e Css no curso oferecido pela One na Alura.                    
+                Essa nova jornada é desafiadora, mas estou empolgado com as possibilidades que se abrem diante de mim. Acredito que a combinação do meu trabalho com a tecnologia seja a chave para meu crescimento profissional e pessoal. Estou ansioso para ver onde essa trajetória irá me levar e os novos horizontes que se abrirão com essa nova caminhada.</p>
+                <!-- Caso queira colocar sua própria assinatura, insira aqui -->
+           </div>
+        </section>
+        <!-- Sessão de Skills/Habilidades -->
+        <section class="skills">
+            <h3 id="skills" class="skills_title">Skills</h3>
+            <div class="skills_line">
+                <div class="skills_box">
+                    <ul>
+                        <li class="skills_img">
+                            <img src="assets\htlm.png">
+                        </li>
+                        <li class="skills_name"> Html 5</li>
+                    </ul>
+                </div>
+                <div class="skills_box">
+                    <ul>
+                        <li class="skills_img">
+                            <img src="assets\css_icon.png">
+                        </li>
+                        <li class="skills_name"> CSS</li>
+                    </ul>
+                </div>
+                <div class="skills_box">
+                    <ul>
+                        <li class="skills_img">
+                            <img src="assets\js_icon.png">
+                        </li>
+                        <li class="skills_name"> Javascript</li>
+                    </ul>
+            </div>
+        </section>
+        <!-- Sessão de Hobbies -->
+        <section id="hobbies" class="hobbies">
+            <h3 class="hobbies_title">Hobbies</h3>
+            <div class="hobbies_line">
+                <div class="hobbies_box">
+                    <ul>
+                        <li class="hobbies_img">
+                            <img src="assets\guitar_icon.png" alt="">
+                        </li>
+                        <li class="hobbies_name">Tocar baixo</li>
+                    </ul>
+                </div>
+                <div class="hobbies_box">
+                    <ul>
+                        <li class="hobbies_img">
+                            <img src="assets\headphones_icon.png" alt="">
+                        </li>
+                        <li class="hobbies_name">Ouvir música</li>
+                    </ul>
+                </div>
+                <div class="hobbies_box">
+                    <ul>
+                        <li class="hobbies_img">
+                            <img src="assets\tv_icon.png" alt="">
+                        </li>
+                        <li class="hobbies_name">Assistir Filmes e séries</li>
+                    </ul>
+                </div>
+    </div>
+        </section>
+        <!-- Sessão de Histórico Acadêmico -->
+        <section class="academic">
+            <h2 id="formacao" class="academic_title">Formação académica</h2>
+            <div class="academic_courses">
+                <div class="academic_courses_box">
+                    <ul class="academic_courses_list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic_courses_item_img"><img src="assets/Sepro.png"></li>
+                        <li class="academic_courses_item_title"><h4>Técnico em Eletromecânica</h4></li>
+                        <li class="academic_courses_item_subtitle"><p>2011 - Sepro</p></li>
+                    </ul>
+                </div>
+                <div class="academic_courses_box">
+                    <ul class="academic_courses_list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic_courses_item_img"><img src="assets/Unopar.png"></li>
+                        <li class="academic_courses_item_title"><h4>Ciências Contábeis</h4></li>
+                        <li class="academic_courses_item_subtitle"><p>2021 - Unopar</p></li>
+                    </ul>
+                </div>
+                <div class="academic_courses_box">
+                    <ul class="academic_courses_list">
+                        <!-- Insira a logo de seu local de formação -->
+                        <li class="academic_courses_item_img"><img src="assets/Unicesumar.png"></li>
+                        <li class="academic_courses_item_title"><h4>Tecnólogo em Gestão da Tecnologia da Informação</h4></li>
+                        <li class="academic_courses_item_subtitle"><p>2024 - Unicesumar</p></li>
+                    </ul>
+                    <li class="academic_courses_item_img"><img src="assets/Senai Betim.png"></li>
+                        <li class="academic_courses_item_title"><h4>Tecnico em Automoção Industrial</h4></li>
+                        <li class="academic_courses_item_subtitle"><p>2024 - Senai</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sessão de Experiência Profissional/Projetos -->
+        <section class="experience">
+            <h2 id="xp" class="experience_section_title">Experiência Profissional</h2>
+        <!-- Sessão de Contato -->
+        <section class="formcontato">
+            <div id="contato" class="formcontato_contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato_img" src="assets\contact_image.png">
+                </div>
+                <div class="formcontato_text">
+                    <h2 class="formcontato_title">Contato</h2>
+                    <h3 class="formcontato_subtext">Quer entrar em contato comigo?</h3>
+                    <h3 class="formcontato_subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
+                    <form class="formcontato_form">
+                        <input id="nome" class="formcontato_input" type="text" placeholder="Nome">
+                        <input id="email" class="formcontato_input" type="email" placeholder="Email">
+                        <input id="assunto" class="formcontato_input" type="text" placeholder="Assunto">
+                        <textarea id="mensagem" class="formcontato_textarea" rows="5" cols="40" name="mensagem" placeholder="Sua mensagem"></textarea>
+                        <button class="formcontato_botao">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Sessão de Footer/Rodapé -->
+        <section class="footer">
+            <div class="footer_rodape">
+                <p>Desenvolvido por Milton Geraldo Alves</p>
+                <p>2024</p>
+            </div>
+        </section>
+    </div>
+    <!-- Script Linkado do seu documento de JavaScript -->
+    <script src="validate.js"></script>
+</body>
+</html>
